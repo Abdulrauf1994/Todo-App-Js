@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 2px solid red; */
+    height: 900px;
+    background-color: aliceblue;
+}
+
+.sec_main{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    width: 400px;
+    height: 600px;
+    /* border: 3px solid green; */
+    border-radius: 30px;
+    box-shadow: 5px 5px 20px #b3b2b2;
+}
+
+.inp_btn_main{
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+    /* border: yellow 2px solid; */
+}
+
+.button_main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 2px solid palevioletred; */
+    /* margin: 20px 0px; */
+    /* height: 40px; */
+}
+
+.input{
+    width: 280px;
+    height: 40px;
+    border-radius: 20px;
+    outline: none;
+    border-style: none;
+    /* border:  1px orange solid; */
+    background-color: yellowgreen;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.addbtn{
+    width: 50px;
+    /* height: 40px; */
+    background-color: black;
+    color: white;
+    border-radius: 50px;
+    margin: 10px;
+    font-size: 30px;
+    font-weight: 700;
+    /* border: 2px solid blue; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.delAll{
+    width: 90px;
+    /* height: 40px; */
+    border-radius: 10px;
+    margin: 10px;
+}
+.list_main{
+    display: flex;
+    justify-content: center;
+    /* border: 2px blueviolet solid; */
+    text-transform: capitalize;
+    margin: 20px 0px;
+    /* height: 60px; */
+    text-decoration: underline;
+    font-weight: 600;
+
+}
+
+.li_delete{
+    margin: 10px;
+    background-color: rgb(209, 208, 208);
+}
